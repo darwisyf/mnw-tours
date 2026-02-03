@@ -1,8 +1,7 @@
 import { createRouter, createWebHistory } from "vue-router";
-import Haji from "../views/Haji.vue";
 
 const Home = () => import("../views/Home.vue");
-const Services = () => import("../views/Haji.vue");
+const Haji = () => import("../views/Haji.vue");
 // const Contacts = () => import("../views/Contacts.vue");
 
 export default createRouter({
