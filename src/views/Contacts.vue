@@ -16,7 +16,7 @@
       </form>
     </div>
     <SectionHeader title="Our Social Media" />
-    <div class="w-1/4 flex justify-between mx-auto mt-6">
+    <div class="w-1/4 grid sm:flex justify-between mx-auto mt-6">
       <div
         class="grid hover:scale-110 transition text-tertiary hover:text-pink-500"
       >
