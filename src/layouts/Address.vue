@@ -1,21 +1,28 @@
 <template>
+  <Divider />
+
   <section class="grid md:flex justify-center">
     <div
       v-for="element in addresses"
       :key="element.id"
       class="max-w-sm mx-6 my-4"
     >
-      <!-- City -->
+      <!-- Branch Title -->
       <h3 class="font-bold text-xl text-tertiary dark:text-primary text-center">
         {{ element.title }}
       </h3>
       <!-- Full Address -->
-      <p class="text-center text-gray-800 dark:text-secondary">{{ element.description }}</p>
+      <p class="text-center text-gray-800 dark:text-secondary">
+        {{ element.description }}
+      </p>
     </div>
   </section>
+
+  <Divider />
 </template>
 <script setup>
 import { ref } from "vue";
+import Divider from "../components/Divider.vue";
 
 const addresses = ref([
   {

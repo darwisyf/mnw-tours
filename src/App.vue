@@ -1,17 +1,16 @@
 <template>
-  <div class="h-max bg-primary dark:bg-primary-dark">
-    <Navbar />
-    <main class="pt-17">
+  <div class="min-h-screen bg-primary dark:bg-primary-dark flex flex-col">
+    <header>
+      <Navbar />
+    </header>
+    <main class="pt-17 flex-1">
       <RouterView />
     </main>
-    <Divider />
     <Address />
-    <Divider />
     <Footer />
   </div>
 </template>
 <script setup>
-import Divider from "./components/Divider.vue";
 import Navbar from "./components/Navbar.vue";
 import Address from "./layouts/Address.vue";
 import Footer from "./layouts/Footer.vue";

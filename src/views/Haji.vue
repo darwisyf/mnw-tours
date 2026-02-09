@@ -1,5 +1,5 @@
 <template>
-  <section id="services" class="relative w-full mx-auto min-h-screen mt-20">
+  <div id="services" class="relative w-full mx-auto min-h-screen mt-20">
     <SectionHeader title="Services" />
     <div class="grid grid-cols-1 lg:grid-cols-3 justify-center">
       <div class="mt-16" v-for="(service, index) in services" :key="index">
@@ -10,7 +10,7 @@
         />
       </div>
     </div>
-  </section>
+  </div>
 </template>
 <script setup>
 import ProductCard from "../components/ProductCard.vue";

@@ -1,7 +1,7 @@
 <template>
   <section class="h-min">
     <SectionHeader title="Testimony" />
-    <div class="max-w-6xl mx-auto grid gap-3 md:gap-8 md:grid-cols-2 mt-12">
+    <div class="max-w-6xl mx-auto grid gap-3 md:gap-6 md:grid-cols-2 mt-12">
       <div
         v-for="element in testimonies"
         :key="element.id"

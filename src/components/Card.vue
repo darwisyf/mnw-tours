@@ -3,7 +3,7 @@
     class="w-min p-1 bg-linear-to-r hover:bg-linear-to-l from-blue-500 to-tertiary rounded-[20px] group transition hover:scale-105"
   >
     <div
-      class="p-4 flex w-xs sm:w-md md:w-lg h-24 items-center rounded-2xl bg-white dark:bg-secondary"
+      class="p-4 flex w-xs md:w-sm lg:w-md h-24 items-center rounded-2xl bg-white dark:bg-secondary"
     >
       <!-- Visual -->
       <div class="gap-4 shrink-0">

@@ -1,9 +1,9 @@
 <template>
-  <section class="min-h-screen">
+  <div class="min-h-screen">
     <HeroSection />
     <About />
     <Testimony />
-  </section>
+  </div>
 </template>
 
 <script setup>
