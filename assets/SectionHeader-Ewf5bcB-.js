@@ -1,0 +1,1 @@
+import{o as e,c as r,a as s,t as a}from"./index-C2f2ddzL.js";const o={class:"flex justify-center"},c={class:"text-4xl md:text-5xl lg:text-6xl font-bold text-center text-tertiary max-w-1/2"},x={__name:"SectionHeader",props:{title:{type:String,required:!0}},setup(t){return(n,i)=>(e(),r("div",o,[s("h2",c,a(t.title),1)]))}};export{x as _};
