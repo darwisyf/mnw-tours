@@ -2,6 +2,7 @@
   <div class="min-h-screen">
     <HeroSection />
     <About />
+    <Gallery />
     <Testimony />
   </div>
 </template>
@@ -10,4 +11,5 @@
 import About from "../layouts/About.vue";
 import HeroSection from "../layouts/HeroSection.vue";
 import Testimony from "../layouts/Testimony.vue";
+import Gallery from "../layouts/Gallery.vue"
 </script>
