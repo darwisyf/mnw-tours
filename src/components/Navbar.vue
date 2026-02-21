@@ -83,6 +83,7 @@ const open = ref(false);
 const menus = [
   { name: "Home", path: "/" },
   { name: "Haji", path: "/haji" },
+  { name: "Umrah", path: "/umrah" },
   { name: "Contact", path: "/contacts" },
 ];
 

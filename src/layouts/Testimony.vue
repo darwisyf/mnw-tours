@@ -1,6 +1,6 @@
 <template>
   <section class="h-min">
-    <SectionHeader title="Testimoni" />
+    <SectionHeader title="Testimony" />
     <div class="max-w-6xl mx-auto grid gap-3 md:gap-6 md:grid-cols-2 mt-12">
       <div
         v-for="element in testimonies"

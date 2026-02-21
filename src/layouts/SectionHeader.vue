@@ -2,7 +2,7 @@
   <div class="flex justify-center">
     <!-- Title -->
     <h2
-      class="text-4xl md:text-5xl lg:text-6xl font-bold text-center bg-linear-to-br from-blue-500 to-tertiary bg-clip-text text-transparent"
+      class="text-4xl md:text-5xl lg:text-6xl font-bold text-center bg-linear-to-br from-blue-500 to-tertiary bg-clip-text text-transparent leading-tight"
     >
       {{ title }}
     </h2>
