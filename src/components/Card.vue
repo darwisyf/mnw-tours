@@ -26,6 +26,8 @@
           @error="onError"
           alt="Card Image"
           class="w-12 h-12 rounded-full object-cover"
+          width="800"
+          height="500"
         />
       </div>
 

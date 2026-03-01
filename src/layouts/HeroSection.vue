@@ -6,6 +6,8 @@
       class="w-full h-full object-cover transition-opacity duration-700"
       alt="Travel Destination"
       loading="eager"
+      width="1200"
+      height="800"
     />
 
     <!-- Overlay -->
@@ -41,9 +43,9 @@
 import { ref, onMounted } from "vue";
 
 const carouselImages = [
-  "https://images.unsplash.com/photo-1589827577276-65d717348780",
-  "https://images.unsplash.com/photo-1590108589108-3600131de843",
-  "https://images.unsplash.com/photo-1511652019870-fbd8713560bf",
+  "https://images.unsplash.com/photo-1589827577276-65d717348780?w=1200&q=70&fm=webp",
+  "https://images.unsplash.com/photo-1590108589108-3600131de843?w=1200&q=70&fm=webp",
+  "https://images.unsplash.com/photo-1511652019870-fbd8713560bf?w=1200&q=70&fm=webp",
 ];
 
 const current = ref(0);

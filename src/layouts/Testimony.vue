@@ -21,7 +21,8 @@ const testimonies = ref([
   {
     id: crypto.randomUUID(),
     type: "image",
-    image: "https://images.unsplash.com/photo-1627091908405-30bd51eec537",
+    image:
+      "https://images.unsplash.com/photo-1627091908405-30bd51eec537?w=500&q=60&fm=webp",
     hoverIcon: "uil:thumbs-up",
     title: "Abdul",
     description: '"Harganya sangat cocok"',
@@ -29,21 +30,24 @@ const testimonies = ref([
   {
     id: crypto.randomUUID(),
     type: "image",
-    image: "https://images.unsplash.com/photo-1651646781428-18b47ae1e17b",
+    image:
+      "https://images.unsplash.com/photo-1651646781428-18b47ae1e17b?w=500&q=60&fm=webp",
     hoverIcon: "uil:thumbs-up",
     title: "Budi",
     description: '"Pelayanan sangat baik"',
   },
   {
     type: "image",
-    image: "https://images.unsplash.com/photo-1544723795-3fb6469f5b39",
+    image:
+      "https://images.unsplash.com/photo-1544723795-3fb6469f5b39?w=500&q=60&fm=webp",
     hoverIcon: "uil:thumbs-up",
     title: "Anto",
     description: '"Perjalanan aman dan nyaman"',
   },
   {
     type: "image",
-    image: "https://images.unsplash.com/photo-1619545307432-9fc73f8135ff",
+    image:
+      "https://images.unsplash.com/photo-1619545307432-9fc73f8135ff?w=500&q=60&fm=webp",
     hoverIcon: "uil:thumbs-up",
     title: "Fatimah",
     description: '"Travel yang sangat amanah!"',

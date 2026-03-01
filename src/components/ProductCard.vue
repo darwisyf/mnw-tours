@@ -8,6 +8,8 @@
         :src="image"
         :alt="title"
         class="w-full object-cover rounded-lg p-1"
+        width="800"
+        height="500"
       />
     </div>
 
@@ -40,7 +42,7 @@ import { computed, ref } from "vue";
 const props = defineProps({
   image: {
     type: String,
-    default: "https://picsum.photos/id/196/1280/720",
+    default: "https://picsum.photos/id/196/640/480",
   },
   title: {
     type: String,
