@@ -3,7 +3,7 @@
     <HeroSection />
     <About />
     <HomeProduct />
-    <Gallery />
+    <HomeGallery />
     <Testimony />
   </div>
 </template>
@@ -12,6 +12,6 @@
 import About from "../layouts/About.vue";
 import HeroSection from "../layouts/HeroSection.vue";
 import Testimony from "../layouts/Testimony.vue";
-import Gallery from "../layouts/Gallery.vue";
+import HomeGallery from "../layouts/HomeGallery.vue";
 import HomeProduct from "../layouts/HomeProduct.vue";
 </script>

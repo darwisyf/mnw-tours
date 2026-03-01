@@ -2,13 +2,14 @@
   <nav
     class="fixed top-0 w-full z-50 bg-white/80 dark:bg-[#0f172a]/80 backdrop-blur border-b border-gray-200 dark:border-gray-800"
   >
-    <div class="max-w-8xl mx-auto px-6">
+    <div class="max-w-8xl mx-auto pl-2 pr-6">
       <div class="flex justify-between items-center h-16">
         <!-- Logo -->
         <RouterLink
           to="/"
-          class="text-xl font-bold bg-linear-to-br from-blue-500 to-tertiary bg-clip-text text-transparent"
+          class="text-xl w-1/2 font-bold bg-linear-to-br from-blue-500 to-tertiary bg-clip-text text-transparent flex justify-start items-center"
         >
+          <img src="/public/images/mnw-logo.png" alt="Logo MNW" class="w-16" />
           Madinah Nurul Wisata
         </RouterLink>
 
@@ -84,6 +85,7 @@ const menus = [
   { name: "Home", path: "/" },
   { name: "Haji", path: "/haji" },
   { name: "Umrah", path: "/umrah" },
+  { name: "Gallery", path: "/gallery" },
   { name: "Contact", path: "/contacts" },
 ];
 
