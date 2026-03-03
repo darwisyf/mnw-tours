@@ -1,5 +1,5 @@
 <template>
-  <section class="bg-white w-19/20 mx-auto rounded-xl shadow-xl pt-6">
+  <section class="bg-white dark:bg-[#0f172a] w-19/20 mx-auto rounded-xl shadow-xl pt-6">
     <SectionHeader title="Gallery" />
     <div
       class="grid grid-cols-1 md:grid-cols-2 gap-4 justify-center my-20 pb-10"

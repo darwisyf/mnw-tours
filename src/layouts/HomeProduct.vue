@@ -29,7 +29,7 @@ const products = ref([
   {
     image:
       "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
-    title: "Umrah Private",
+    title: "Umrah Private / Mandiri",
   },
   {
     image:
@@ -39,7 +39,7 @@ const products = ref([
   {
     image:
       "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
-    title: "Hajj Furodah",
+    title: "Hajj Reguler",
   },
   {
     image:

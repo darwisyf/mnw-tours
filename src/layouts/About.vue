@@ -3,7 +3,7 @@
     class="max-w-6xl mx-auto px-2 sm:px-6 py-20 grid md:grid-cols-2 gap-12 items-center"
   >
     <img
-      src="https://images.unsplash.com/photo-1554976757-606d486f5d92?w=1200&q=70&fm=webp"
+      src="https://images.unsplash.com/photo-1554976757-606d486f5d92?w=1000&q=60&fm=webp"
       class="rounded-2xl shadow-lg"
       alt="About Travel"
       loading="lazy"

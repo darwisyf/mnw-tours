@@ -1,26 +1,26 @@
 <template>
   <div
-    class="relative max-w-xs xl:max-w-sm bg-white/80 dark:bg-gray-700/80 mx-auto rounded-lg border-3 border-tertiary dark:border-secondary shadow-md shadow-gray-700 dark:shadow-gray-600 curs"
+    class="relative max-w-xs xl:max-w-sm bg-white/80 dark:bg-[#0f172a]/80 mx-auto rounded-lg border-3 border-tertiary dark:border-secondary shadow-md shadow-gray-700 dark:shadow-gray-600 hover:scale-105 transition"
   >
     <!-- Image -->
     <div>
       <img
         :src="image"
         :alt="title"
-        class="w-full object-cover rounded-lg p-1"
+        class="w-full object-cover rounded-t"
         width="800"
         height="500"
       />
     </div>
 
     <!-- Title -->
-    <div class="py-4 mt-2 text-center">
+    <div class="py-4 text-center">
       <h3 class="font-semibold text-3xl text-gray-800 dark:text-secondary">
         {{ title }}
       </h3>
     </div>
     <!-- Desc -->
-    <div class="px-6 py-8">
+    <div v-if="props.description != null" class="px-6 py-8">
       <p class="text-sm text-center text-gray-800 dark:text-secondary">
         {{ description }}
       </p>

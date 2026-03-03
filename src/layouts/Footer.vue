@@ -24,7 +24,7 @@
   </footer>
 </template>
 <script setup>
-import logoPic from "../assets/icons/logo-kemenag-png-1png.png";
+import logoPic from "../assets/icons/logo-kemenag.webp";
 
 const year = new Date().getFullYear();
 </script>

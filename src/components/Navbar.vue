@@ -7,10 +7,10 @@
         <!-- Logo -->
         <RouterLink
           to="/"
-          class="text-xl w-1/2 font-bold bg-linear-to-br from-blue-500 to-tertiary bg-clip-text text-transparent flex justify-start items-center"
+          class="w-max font-bold bg-linear-to-br from-blue-500 to-tertiary bg-clip-text text-transparent flex justify-start items-center"
         >
-          <img src="/public/images/mnw-logo.png" alt="Logo MNW" class="w-16" />
-          Madinah Nurul Wisata
+          <img :src="logoMNW" alt="Logo MNW" class="w-16" />
+          <h1 class="text-xs md:text-xl">Madinah Nurul Wisata</h1>
         </RouterLink>
 
         <div class="flex items-center gap-6">
@@ -78,6 +78,7 @@
 <script setup>
 import { Icon } from "@iconify/vue";
 import { ref } from "vue";
+import logoMNW from "../assets/icons/mnw-logo.webp";
 
 const open = ref(false);
 

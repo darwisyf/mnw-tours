@@ -3,7 +3,7 @@
     class="w-min p-1 bg-linear-to-r hover:bg-linear-to-l from-blue-500 to-tertiary rounded-[20px] group transition hover:scale-105"
   >
     <div
-      class="p-4 flex w-xs md:w-sm lg:w-md h-24 items-center rounded-2xl bg-white dark:bg-secondary"
+      class="p-4 flex w-xs md:w-sm lg:w-md h-24 items-center rounded-2xl bg-white dark:bg-[#0f172a]/80"
     >
       <!-- Visual -->
       <div class="gap-4 shrink-0">
@@ -33,12 +33,12 @@
 
       <div class="ml-6">
         <!-- Title -->
-        <h3 class="text-xl font-semibold">
+        <h3 class="text-xl text-start font-semibold dark:text-primary">
           {{ title }}
         </h3>
 
         <!-- Description -->
-        <p class="text-gray-600 dark:text-gray-800 leading-relaxed text-sm">
+        <p class="text-gray-600 text-start dark:text-gray-300 leading-relaxed text-sm">
           {{ description }}
         </p>
       </div>
