@@ -1,5 +1,5 @@
 <template>
-  <div id="services" class="relative w-full mx-auto min-h-screen mt-20">
+  <div class="relative w-full mx-auto min-h-screen mt-20">
     <SectionHeader title="Haji" />
     <div class="grid grid-cols-1 lg:grid-cols-3 justify-center">
       <div class="mt-16" v-for="(service, index) in services" :key="index">

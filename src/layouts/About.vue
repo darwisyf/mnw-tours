@@ -3,12 +3,12 @@
     class="max-w-6xl mx-auto px-2 sm:px-6 py-20 grid md:grid-cols-2 gap-12 items-center"
   >
     <img
-      src="https://images.unsplash.com/photo-1554976757-606d486f5d92?w=1000&q=60&fm=webp"
+      :src="aboutImg"
       class="rounded-2xl shadow-lg"
       alt="About Travel"
       loading="lazy"
-      width="800"
-      height="500"
+      width="500"
+      height="800"
     />
 
     <div class="text-center md:text-start">
@@ -31,6 +31,7 @@
 <script setup>
 import Card from "../components/Card.vue";
 import { ref } from "vue";
+import aboutImg from "../assets/gallery/mnw-5.webp";
 
 const abouts = ref([
   {

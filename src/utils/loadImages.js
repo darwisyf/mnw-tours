@@ -1,5 +1,5 @@
 export const loadImages = () => {
-  const modules = import.meta.glob("../assets/images/*.{png,jpg,jpeg,webp}", {
+  const modules = import.meta.glob("../assets/gallery/*.{png,jpg,jpeg,webp}", {
     eager: true,
     import: "default",
   });

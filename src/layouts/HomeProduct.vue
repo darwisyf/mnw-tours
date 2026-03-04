@@ -2,7 +2,7 @@
   <div class="min-h-screen mb-20">
     <SectionHeader title="Products" />
     <div
-      class="grid grid-cols-1 lg:grid-cols-3 justify-center mt-10 max-w-7/8 mx-auto"
+      class="grid grid-cols-1 lg:grid-cols-3 justify-center mt-10 max-w-3/4 mx-auto"
     >
       <div v-for="(product, index) in products" class="my-6 lg:my-8">
         <ProductCard :image="product.image" :title="product.title" />
@@ -16,7 +16,9 @@ import ProductCard from "../components/ProductCard.vue";
 import SectionHeader from "./SectionHeader.vue";
 import umrahReg from "../assets/images/umrah-reguler.webp";
 import umrahPriv from "../assets/images/umrah-private.webp";
+import umrahHoliday from "../assets/images/umrah-holiday.webp";
 import hajiReg from "../assets/images/haji-reguler.webp";
+import hajiPlus from "../assets/images/haji-plus.webp";
 
 const products = ref([
   {
@@ -24,7 +26,7 @@ const products = ref([
     title: "Umrah Reguler",
   },
   {
-    image: umrahReg,
+    image: umrahHoliday,
     title: "Umrah Plus Holiday",
   },
   {
@@ -32,7 +34,7 @@ const products = ref([
     title: "Umrah Private / Mandiri",
   },
   {
-    image: umrahReg,
+    image: hajiPlus,
     title: "Hajj ONH Plus",
   },
   {
