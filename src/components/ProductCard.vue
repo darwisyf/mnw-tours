@@ -10,6 +10,7 @@
         class="w-full object-cover rounded-t"
         width="800"
         height="500"
+        loading="lazy"
       />
     </div>
 

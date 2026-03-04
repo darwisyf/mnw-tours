@@ -14,36 +14,33 @@
 import { ref } from "vue";
 import ProductCard from "../components/ProductCard.vue";
 import SectionHeader from "./SectionHeader.vue";
+import umrahReg from "../assets/images/umrah-reguler.webp";
+import umrahPriv from "../assets/images/umrah-private.webp";
+import hajiReg from "../assets/images/haji-reguler.webp";
 
 const products = ref([
   {
-    image:
-      "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
+    image: umrahReg,
     title: "Umrah Reguler",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
+    image: umrahReg,
     title: "Umrah Plus Holiday",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
+    image: umrahPriv,
     title: "Umrah Private / Mandiri",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
+    image: umrahReg,
     title: "Hajj ONH Plus",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
+    image: hajiReg,
     title: "Hajj Reguler",
   },
   {
-    image:
-      "https://images.unsplash.com/photo-1693590614566-1d3ea9ef32f7?w=1200&q=70&fm=webp",
+    image: umrahReg,
     title: "Halal Trip",
   },
 ]);
