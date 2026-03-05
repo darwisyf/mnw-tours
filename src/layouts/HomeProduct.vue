@@ -2,7 +2,7 @@
   <div class="min-h-screen mb-20">
     <SectionHeader title="Products" />
     <div
-      class="grid grid-cols-1 lg:grid-cols-3 justify-center mt-10 max-w-3/4 mx-auto"
+      class="grid grid-cols-1 lg:grid-cols-3 justify-center mt-10 max-w-3/4 mx-auto gap-1 lg:gap-2"
     >
       <div v-for="(product, index) in products" class="my-6 lg:my-8">
         <ProductCard :image="product.image" :title="product.title" />
@@ -31,7 +31,7 @@ const products = ref([
   },
   {
     image: umrahPriv,
-    title: "Umrah Private / Mandiri",
+    title: "Umrah Private/Mandiri",
   },
   {
     image: hajiPlus,

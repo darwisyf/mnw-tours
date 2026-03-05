@@ -17,3 +17,9 @@ import Navbar from "./components/Navbar.vue";
 import Address from "./layouts/Address.vue";
 import Footer from "./layouts/Footer.vue";
 </script>
+
+<style>
+.description {
+  white-space: pre-line;
+}
+</style>

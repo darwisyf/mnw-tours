@@ -1,13 +1,13 @@
 <template>
   <div
-    class="relative max-w-xs xl:max-w-sm bg-white/80 dark:bg-[#0f172a]/80 mx-auto rounded-lg border-3 border-tertiary dark:border-secondary shadow-md shadow-gray-700 dark:shadow-gray-600 hover:scale-105 transition"
+    class="max-w-xs xl:max-w-sm h-max bg-white/80 dark:bg-[#0f172a]/80 mx-auto rounded-lg border-3 border-tertiary dark:border-secondary shadow-md shadow-gray-700 dark:shadow-gray-600 hover:scale-105 transition"
   >
     <!-- Image -->
     <div>
       <img
         :src="image"
         :alt="title"
-        class="w-full object-cover rounded-t"
+        class="w-full lg:h-68 lg:hover:h-max transition-all duration-500 object-cover rounded-t"
         width="800"
         height="500"
         loading="lazy"
@@ -22,7 +22,9 @@
     </div>
     <!-- Desc -->
     <div v-if="props.description != null" class="px-6 py-8">
-      <p class="text-sm text-center text-gray-800 dark:text-secondary">
+      <p
+        class="text-sm text-center text-gray-800 dark:text-secondary description line-clamp-4"
+      >
         {{ description }}
       </p>
     </div>

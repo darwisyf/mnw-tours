@@ -4,7 +4,7 @@
   >
     <img
       :src="aboutImg"
-      class="rounded-2xl shadow-lg"
+      class="rounded-2xl shadow-lg w-full h-full object-cover"
       alt="About Travel"
       loading="lazy"
       width="500"

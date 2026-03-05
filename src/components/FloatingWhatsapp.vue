@@ -31,7 +31,7 @@ import { Icon } from "@iconify/vue";
 
 const phone = "6281113204397";
 const message = encodeURIComponent(
-  "Halo, saya ingin bertanya tentang Paket Haji/Umroh/Liburan di Madinah Nurul Wisata",
+  "Halo, Saya ingin bertanya tentang Paket Haji/Umroh/Trip di Madinah Nurul Wisata",
 );
 const waLink = `https://wa.me/${phone}?text=${message}`;
 </script>

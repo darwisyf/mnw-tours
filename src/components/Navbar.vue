@@ -31,7 +31,10 @@
             </RouterLink>
           </div>
 
-          <button @click="toggleDarkMode" class="text-white ml-20 z-10">
+          <button
+            @click="toggleDarkMode"
+            class="text-white ml-20 z-10 hover:cursor-pointer"
+          >
             <!-- Show moon icon if dark mode is off, otherwise show sun icon -->
             <Icon
               v-if="!isDarkMode"
@@ -44,15 +47,15 @@
               class="text-2xl text-secondary"
             />
           </button>
-        </div>
 
-        <!-- Mobile Button -->
-        <button class="md:hidden text-3xl" @click="open = !open">
-          <Icon
-            icon="line-md:close-to-menu-transition"
-            class="text-tertiary dark:text-primary"
-          />
-        </button>
+          <!-- Mobile Button -->
+          <button class="md:hidden text-3xl" @click="open = !open">
+            <Icon
+              icon="line-md:close-to-menu-transition"
+              class="text-tertiary dark:text-primary"
+            />
+          </button>
+        </div>
       </div>
     </div>
 

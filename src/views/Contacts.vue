@@ -16,15 +16,17 @@
       </form>
       <Button label="Send" type="submit" class="mt-6" />
     </div>
+
     <div>
       <iframe
         src="https://www.google.com/maps/d/u/0/embed?mid=1NtM-7EmTdt6qr5h6t0z5PvxEGUwW3go&ehbc=2E312F&noprof=1"
         class="mx-auto mb-18 min-w-xs sm:min-w-md md:min-w-2xl lg:min-w-4xl h-100"
       ></iframe>
     </div>
+
     <!-- Social Media -->
     <SectionHeader title="Our Social Media" />
-    <div class="w-1/3 grid sm:flex justify-between mx-auto mt-6">
+    <div class="max-w-1/2 grid sm:flex justify-evenly mx-auto mt-4 mb-16">
       <div
         class="grid hover:scale-110 transition text-tertiary hover:text-pink-500"
       >
@@ -52,6 +54,58 @@
         </a>
         <p>@mnw_tours</p>
       </div>
+    </div>
+
+    <!-- More Contact -->
+    <SectionHeader title="More Contacts" />
+    <div
+      class="flex flex-col md:flex-row gap-3 justify-evenly max-w-2/3 mx-auto text-lg text-white font-medium mt-4 mb-6"
+    >
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://wa.me/6281113204397"
+        class="flex items-center gap-1 bg-green-400 px-6 py-1 rounded-full hover:bg-green-600 transition hover:scale-105"
+      >
+        <Icon icon="ic:outline-whatsapp" />
+        <span>Admin 1</span>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://wa.me/6285720003968"
+        class="flex items-center gap-1 bg-green-400 px-6 py-1 rounded-full hover:bg-green-600 transition hover:scale-105"
+      >
+        <Icon icon="ic:outline-whatsapp" />
+        <span>Admin 2</span>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://wa.me/6285872810891"
+        class="flex items-center gap-1 bg-green-400 px-6 py-1 rounded-full hover:bg-green-600 transition hover:scale-105"
+      >
+        <Icon icon="ic:outline-whatsapp" />
+        <span>Admin 3</span>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://wa.me/6281398114964"
+        class="flex items-center gap-1 bg-green-400 px-6 py-1 rounded-full hover:bg-green-600 transition hover:scale-105"
+      >
+        <Icon icon="ic:outline-whatsapp" />
+        <span>Admin 4</span>
+      </a>
+      <a
+        target="_blank"
+        rel="noopener noreferrer"
+        href="https://wa.me/6281211490984"
+        class="flex items-center gap-1 bg-green-400 px-6 py-1 rounded-full hover:bg-green-600 transition hover:scale-105"
+      >
+        <Icon icon="ic:outline-whatsapp" />
+        <span>Admin 5</span>
+      </a>
     </div>
   </div>
 </template>
