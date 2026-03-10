@@ -7,7 +7,7 @@
       <img
         :src="image"
         :alt="title"
-        class="w-full lg:h-68 lg:hover:h-max transition-all duration-500 object-cover rounded-t"
+        class="w-full lg:h-68 transition-all duration-500 object-cover rounded-t"
         width="800"
         height="500"
         loading="lazy"
