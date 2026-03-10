@@ -1,5 +1,7 @@
 <template>
-  <section class="flex flex-row justify-evenly max-w-11/12 mx-auto mb-16">
+  <section
+    class="flex flex-col md:flex-row justify-evenly max-w-11/12 mx-auto mb-16"
+  >
     <div class="max-w-xl">
       <h3 class="text-3xl text-center text-tertiary">Visi</h3>
       <p class="font-light my-4">
