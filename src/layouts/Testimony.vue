@@ -24,8 +24,9 @@ const testimonies = ref([
     image:
       "https://images.unsplash.com/photo-1627091908405-30bd51eec537?w=500&q=60&fm=webp",
     hoverIcon: "uil:thumbs-up",
-    title: "Abdul",
-    description: '"Harganya sangat cocok"',
+    title: "Abang Zakir",
+    description:
+      '"Masya Allah Travel MNW selalu memberikan yang terbaik🥰🫶🫶"',
   },
   {
     id: crypto.randomUUID(),

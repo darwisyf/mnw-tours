@@ -1,9 +1,9 @@
 <template>
   <div
-    class="w-min p-1 bg-linear-to-r hover:bg-linear-to-l from-blue-500 to-tertiary rounded-[20px] group transition hover:scale-105"
+    class="w-min p-1 bg-linear-to-r hover:bg-linear-to-l from-blue-500 to-tertiary rounded-[20px] group transition hover:scale-105 mx-auto md:mx-0"
   >
     <div
-      class="p-4 flex w-xs md:w-sm lg:w-md h-24 items-center rounded-2xl bg-white dark:bg-[#0f172a]/80"
+      class="p-4 flex w-xs lg:w-md h-24 items-center rounded-2xl bg-white dark:bg-[#0f172a]/80"
     >
       <!-- Visual -->
       <div class="gap-4 shrink-0">

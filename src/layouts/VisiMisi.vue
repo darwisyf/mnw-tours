@@ -1,17 +1,17 @@
 <template>
   <section
-    class="flex flex-col md:flex-row justify-evenly max-w-11/12 mx-auto mb-16"
+    class="flex flex-col md:flex-row justify-evenly max-w-11/12 mx-auto mb-16 min-h-screen"
   >
     <div class="max-w-xl">
-      <h3 class="text-3xl text-center text-tertiary">Visi</h3>
-      <p class="font-light my-4">
+      <h3 class="text-3xl text-center text-tertiary dark:text-primary">Visi</h3>
+      <p class="font-light my-4 text-gray-700 dark:text-gray-400">
         {{ visiMisi.vision }}
       </p>
     </div>
     <VertDivider class="px-4" />
     <div class="max-w-xl">
-      <h3 class="text-3xl text-center text-tertiary">Misi</h3>
-      <ol class="font-light list-decimal ml-5">
+      <h3 class="text-3xl text-center text-tertiary dark:text-primary">Misi</h3>
+      <ol class="font-light list-decimal ml-5 text-gray-700 dark:text-gray-400">
         <li class="my-4">{{ visiMisi.mission.first }}</li>
         <li class="my-4">{{ visiMisi.mission.second }}</li>
         <li class="my-4">{{ visiMisi.mission.third }}</li>

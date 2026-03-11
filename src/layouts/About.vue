@@ -22,7 +22,7 @@
         explicabo!
       </p>
 
-      <div class="grid gap-3 justify-center md:justify-start">
+      <div class="flex flex-col gap-3 justify-center md:justify-start">
         <Card v-for="(item, index) in abouts" :key="index" v-bind="item" />
       </div>
     </div>
