@@ -20,7 +20,7 @@
 
         <!-- Image -->
         <img
-          v-else-if="type === 'image'"
+          v-if="type === 'image'"
           :src="image"
           loading="lazy"
           @error="onError"
@@ -42,14 +42,6 @@
           {{ description }}
         </p>
       </div>
-
-      <!-- Hover Icon -->
-      <div
-        v-if="hoverIcon"
-        class="absolute right-4 opacity-0 scale-0 transition-all duration-300 group-hover:opacity-100 group-hover:scale-100"
-      >
-        <Icon :icon="hoverIcon" class="text-3xl text-indigo-600" />
-      </div>
     </div>
   </div>
 </template>
@@ -64,7 +56,6 @@ defineProps({
     required: true,
   },
   icon: String,
-  hoverIcon: String,
   image: String,
   title: {
     type: String,
