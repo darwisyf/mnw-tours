@@ -1,6 +1,7 @@
 <template>
-  <div class="relative w-full mx-auto min-h-screen mt-20">
+  <div class="relative w-full mx-auto min-h-screen mt-10">
     <SectionHeader title="Haji" />
+    <Divider />
     <div class="grid grid-cols-1 lg:grid-cols-3 justify-center">
       <div class="mt-16" v-for="(service, index) in services" :key="index">
         <ProductCard
@@ -13,6 +14,7 @@
   </div>
 </template>
 <script setup>
+import Divider from "../components/Divider.vue";
 import ProductCard from "../components/ProductCard.vue";
 import SectionHeader from "../layouts/SectionHeader.vue";
 import { ref } from "vue";

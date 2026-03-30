@@ -9,7 +9,7 @@
           to="/"
           class="w-max font-bold bg-linear-to-br from-blue-500 to-tertiary bg-clip-text text-transparent flex justify-start items-center"
         >
-          <img :src="logoMNW" alt="Logo MNW" class="w-16" />
+          <img :src="logoMNW" alt="Logo MNW" class="max-w-16 h-auto" />
           <h1 class="text-xs md:text-xl">Madinah Nurul Wisata</h1>
         </RouterLink>
 

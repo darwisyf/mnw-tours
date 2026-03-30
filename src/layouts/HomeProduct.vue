@@ -19,6 +19,7 @@ import umrahPriv from "../assets/images/umrah-private.webp";
 import umrahHoliday from "../assets/images/umrah-holiday.webp";
 import hajiReg from "../assets/images/haji-reguler.webp";
 import hajiPlus from "../assets/images/haji-plus.webp";
+import holiday from "../assets/images/holiday.webp";
 
 const products = ref([
   {
@@ -42,7 +43,7 @@ const products = ref([
     title: "Hajj Reguler",
   },
   {
-    image: umrahReg,
+    image: holiday,
     title: "Halal Trip",
   },
 ]);
